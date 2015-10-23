@@ -1,8 +1,8 @@
 {
   "name": "promised-trello",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "author": "Anders Grendstadbakk <anders.2205@gmail.com>",
+  "author": "",
   "repository": {
     "type": "git",
     "url": "http://github.com/andeersg/promised-trello.git"
@@ -14,7 +14,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "node-trello": "^1.1.2",
