@@ -27,3 +27,31 @@ t.getMyBoards().then(function(data) {
 })
 .done();
 ```
+
+### `getBoardByName(name)`
+
+Get a single board by name, returns FALSE if no board with input name is found.
+
+### `getMyBoards`
+
+Get all boards for the authenticated user.
+
+### `getBoard(id)`
+
+Get a board by board ID.
+
+### `getLists(id)`
+
+Get all lists on a board by board ID.
+
+### `getCards(id)`
+
+Get all cards on a list by list ID.
+
+### `getAttachments(id)`
+
+Get all attachments on a card by card ID.
+
+### `getFullBoard(name)`
+
+Get a board with lists, cards and attachments by name.
