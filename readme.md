@@ -55,3 +55,7 @@ Get all attachments on a card by card ID.
 ### `getFullBoard(name)`
 
 Get a board with lists, cards and attachments by name.
+
+### `get(string)`
+
+Call the api manually by providing a full api path like "/1/boards/[board_id]".

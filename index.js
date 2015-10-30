@@ -176,5 +176,23 @@ TrelloPromise.prototype.getFullBoard = function(name) {
 };
 
 
+TrelloPromise.prototype.get = function(string, options) {
+  var deferred = Q.defer();
+
+  if (typeof options == 'undefined') {
+    var options = {};
+  }
+
+  this.trello.get(string, options, function(err, data) {
+    if (err) {
+      deferred.reject(new Error(err));
+    }
+    else {
+      deferred.resolve(data);
+    }
+  });
+  return deferred.promise;
+};
+
 // !Helpers:
 
