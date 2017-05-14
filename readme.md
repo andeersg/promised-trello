@@ -1,5 +1,7 @@
 # Promised Trello
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/andeersg/promised-trello.svg)](https://greenkeeper.io/)
+
 Small wrapper for node-trello that uses promises and self explaining functions
 to access the API.
 
